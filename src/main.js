@@ -3,6 +3,15 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+import 'mint-ui/lib/style.css'
+import './assets/mui/css/mui.min.css'
+
+import { Button } from 'mint-ui';
+Vue.component(Button.name, Button);
+
+import { Header } from 'mint-ui';
+Vue.component(Header.name, Header);
+
 Vue.config.productionTip = false
 
 new Vue({
